@@ -1,0 +1,70 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.kanban {
+  .Mui-selected {
+    background-color: #f4f7fa;
+  }
+  .MuiTabs-indicator {
+    display: none;
+  }
+}
+
+.rs-picker-menu {
+  z-index: 10004124 !important;
+}
+
+.production_row {
+  .css-1rpfc2h-MuiTableCell-root {
+    border-bottom: none !important;
+  }
+  .css-ju13j4 {
+    padding: none;
+    &:active {
+      color: red;
+    }
+  }
+  .css-1ce3d9t-MuiTreeItem-root {
+    &:hover {
+      background-color: transparent;
+    }
+    &:active {
+      background-color: white !important;
+    }
+  }
+}
+
+.TableContainer-root > div {
+  max-height: 83vh;
+  overflow: auto;
+}
+
+.MuiTableHead-root {
+  top: 0;
+  position: sticky;
+  z-index: 600;
+}
+
+.MuiTableHead-root,
+.css-1i5hr6i-MuiTableHead-root {
+  background: #f4f7fa !important;
+}
+
+.MuiTableCell-root,
+.TableFixedCell-dividerRight {
+  border-right: none !important;
+}
+
+.TableTreeCell-cell {
+  padding: 4px 8px;
+  height: 71px;
+}
+
+.my-grid .dxgvDataRow.dxgvLVR > td.dxgv {
+  border-bottom-width: 1px;
+}
